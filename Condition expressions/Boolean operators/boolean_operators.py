@@ -3,4 +3,5 @@ age = 17
 
 print(name == "John" or name == "Jane")    # Checks that name either equals to "John" to "Jane"
 
-print(name == "John" and age >= 16)
+print(name == "John" and age >= 16) # checks if name is equal to "John" and he is 16 or older
+

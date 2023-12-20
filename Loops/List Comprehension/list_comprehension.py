@@ -6,6 +6,8 @@ for i in starting_numbers:
 
 print(my_inefficient_list)
 
-
-my_efficient_list = ['Use list comprehension to build a new list']
+# using list comprehensions to create a new list
+# in this case, the list used to generate a new one is the starting_
+# list
+my_efficient_list = [i + 10 for i in my_inefficient_list]
 print(my_efficient_list)
