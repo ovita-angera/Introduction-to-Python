@@ -4,6 +4,8 @@ for i in range(5):
     print(i)
 
 for x in range(10):
-    # Add a condition
+    # Add a condition to print only odd numbers
+    if x % 2 == 0:
         # Add a keyword to skip print(x) for this loop
+        continue
     print(x)
